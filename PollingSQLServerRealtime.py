@@ -17,7 +17,7 @@ while 1==1:
         t=row[2]
         r = row[1]
 
-        print(f"{minrid},{rid}, {r}, {t}")
+        print(f"{rid}, {r}, {t}")
         minrid = rid
     #print(f'minrid is now: {minrid}')
 

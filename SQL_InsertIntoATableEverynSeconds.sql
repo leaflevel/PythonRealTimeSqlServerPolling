@@ -13,7 +13,7 @@ WHILE @i < 100000000
 	 set @i=@i+1
 	 INSERT into realtimelog(random, datetime) 
 	 values(cast(rand()* 1 as int), getdate()) 
-	 WAITFOR DELAY '00:00:00:05' --Two seconds
+	 WAITFOR DELAY '00:00:01:00' --Two seconds
 	end
 	 
 
